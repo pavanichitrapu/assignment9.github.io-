@@ -39,7 +39,7 @@ function creattable (){
         infoContent.innerHTML='';
         
         var div = document.createElement('div');
-        div.innerHTML = "<b> User selected: </b>" + responseData[i].firstName;
+        div.innerHTML = "<b> User selected: </b>" + responseData[i].firstName+' '+responseData[i].lastName;
         
         var divDesc =  document.createElement('div');
         divDesc=document.createTextNode('Description');
