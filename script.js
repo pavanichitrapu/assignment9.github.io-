@@ -3,7 +3,7 @@ var datarow = document.getElementsByClassName('data-row');
 
 function creattable (){
     var xhttp = new XMLHttpRequest();
-    xhttp.open('GET','http://www.filltext.com/?rows=32&id=%7Bnumber%7C1000%7D&firstName=%7BfirstName%7D&lastName=%7BlastName%7D&email=%7Bemail%7D&phone=%7Bphone%7C(xxx)xxx-xx-xx%7D&address=%7BaddressObject%7D&description=%7Blorem%7C32%7D', true)
+    xhttp.open('GET','https://5eede3504cbc340016331338.mockapi.io/admin', true)
     xhttp.send();
     xhttp.onreadystatechange = function(){
         var responseData;
