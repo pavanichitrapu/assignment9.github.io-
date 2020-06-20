@@ -1,7 +1,7 @@
 var table_data = document.getElementById('table-data');
 var datarow = document.getElementsByClassName('data-row');
 
-function creattable (){
+function createtable (){
     var xhttp = new XMLHttpRequest();
     xhttp.open('GET','https://5eede3504cbc340016331338.mockapi.io/admin', true)
     xhttp.send();
@@ -79,7 +79,7 @@ $('tr.active').removeClass('active');
           });
           }     
     }
-    creattable();
+    createtable();
    
                 
 
